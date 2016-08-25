@@ -1,0 +1,8 @@
+A collection of the tests that you want to run when getting know to the Telegram Bot API.
+
+To create your bot please talk to the BotFather bot in your Telegram app. As soon as you have a token, modify the corresponding places in code like the one in the Bot.pm file marked with capital letters: YOUR_BOT_TOKEN_HERE.
+
+The .psgi set of files are the second part of the examples, which require a PSGI server running on your web server. Please make sure you have a valid  SSL certificate at your machine (otherwise Telegram will not send a word to your webhook). Also, modify the URL in the file setting a webhook URL (04_webhook.pl).
+
+Would you have any thoughts you'd like to share with me, feel free to contact me.
+
